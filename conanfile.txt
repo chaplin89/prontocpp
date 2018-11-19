@@ -1,0 +1,13 @@
+[requires]
+boost/1.68.0@conan/stable
+cppzmq/4.2.2@bincrafters/stable
+grpc/1.14.1@inexorgame/stable
+rxcpp/4.0.0@bincrafters/stable
+catch2/2.4.1@bincrafters/stable
+protobuf/3.6.1@bincrafters/stable
+
+[options]
+    protobuf:shared=False
+    protobuf:with_zlib=False
+[generators]
+cmake

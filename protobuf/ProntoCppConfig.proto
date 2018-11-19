@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ProntoCppConfig {
+	uint32 SampleConfig = 1;
+}

@@ -1,0 +1,9 @@
+#ifndef __VERSION_HPP__
+#define __VERSION_HPP__
+
+// version variable that will be substituted by cmake
+// This shows an example using the $ variable type
+#define PROJECT_NAME "${PROJECT_NAME}"
+#define PROJECT_MAIN_CONFIG "${PROJECT_NAME}.cfg"
+
+#endif
