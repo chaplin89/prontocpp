@@ -7,3 +7,8 @@ Includes all the basic dependencies for every modern C++ project:
 - Protobuf
 - Catch2
 - RxCpp
+
+# How to use it
+- Get Conan from https://conan.io/
+- Run conan_init.bat
+- Compile & enjoy
