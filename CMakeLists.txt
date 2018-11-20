@@ -84,3 +84,8 @@ enable_testing()
 add_executable(catch-test-main test/main.cpp)
 conan_target_link_libraries(catch-test-main)
 add_test(NAME catch_test COMMAND $<TARGET_FILE:catch-test-main> --success)
+
+enable_testing()
+add_executable(bench-test-main benchmark/main.cpp)
+conan_target_link_libraries(bench-test-main)
+add_test(NAME bench-test-main COMMAND $<TARGET_FILE:bench-test-main> --success)
