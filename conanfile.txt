@@ -5,6 +5,7 @@ grpc/1.14.1@inexorgame/stable
 rxcpp/4.0.0@bincrafters/stable
 catch2/2.4.1@bincrafters/stable
 protobuf/3.6.1@bincrafters/stable
+benchmark/1.4.1@inexorgame/stable
 
 [options]
     protobuf:shared=False
